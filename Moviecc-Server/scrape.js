@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const axios = require('axios');
 require('dotenv').config();
 
-const TMDB_API_KEY = "7ede0ae2149348c6921d3b514faf89bc";
+const TMDB_API_KEY = "yourapikey";
 const Movie = require('./models/Movie');
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
