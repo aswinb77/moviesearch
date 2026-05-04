@@ -10,8 +10,8 @@ function Moviecard({ movie, onClick, tag }) {
     setIsFav(!isFav);
   }
 
-  const bgImage = movie.poster_path
-    ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+  const bgImage = movie.poster_url
+    ? `https://image.tmdb.org/t/p/w500${movie.poster_url}`
     : "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=300";
 
   return (
